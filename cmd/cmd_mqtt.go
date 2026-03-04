@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	"github.com/MickMake/GoSungrow/cmdHassio"
-	"github.com/MickMake/GoSungrow/iSolarCloud/WebAppService/getDevicePointAttrs"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/cmdHassio"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/WebAppService/getDevicePointAttrs"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"errors"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"

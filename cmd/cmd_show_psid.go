@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getPsDetail"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getPsDetailWithPsType"
+	"github.com/kevinkems/GoSungrow/iSolarCloud"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getPsDetail"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getPsDetailWithPsType"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"
 	"github.com/MickMake/GoUnify/cmdHelp"

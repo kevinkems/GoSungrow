@@ -20,8 +20,8 @@ const (
 	Description   = "GoSungrow - GoLang implementation to access the iSolarCloud API updated by SunGrow inverters"
 	BinaryName    = "GoSungrow"
 	BinaryVersion = "3.0.7"
-	SourceRepo    = "github.com/MickMake/" + BinaryName
-	BinaryRepo    = "github.com/MickMake/" + BinaryName
+	SourceRepo    = "github.com/kevinkems/" + BinaryName
+	BinaryRepo    = "github.com/kevinkems/" + BinaryName
 
 	EnvPrefix = "GOSUNGROW"
 

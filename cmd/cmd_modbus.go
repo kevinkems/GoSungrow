@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/MickMake/GoSungrow/cmdModbus"
-	"github.com/MickMake/GoUnify/Only"
+	"github.com/kevinkems/GoSungrow/cmdModbus"
+	"github.com/kevinkems/GoUnify/Only"
 	"github.com/MickMake/GoUnify/cmdHelp"
 	"github.com/MickMake/GoUnify/cmdLog"
 	"github.com/spf13/cobra"

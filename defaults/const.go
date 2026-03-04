@@ -19,7 +19,7 @@ var Examples string
 const (
 	Description   = "GoSungrow - GoLang implementation to access the iSolarCloud API updated by SunGrow inverters"
 	BinaryName    = "GoSungrow"
-	BinaryVersion = "3.0.7"
+	BinaryVersion = "3.0.8"
 	SourceRepo    = "github.com/kevinkems/" + BinaryName
 	BinaryRepo    = "github.com/kevinkems/" + BinaryName
 

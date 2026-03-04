@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/login"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/login"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"errors"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"

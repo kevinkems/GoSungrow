@@ -12,21 +12,23 @@ TAG="$(git describe --tags "${VERSION}")"
 if [ ! -z "${TAG}" ]
 then
 	echo "Version ${VERSION} already exists."
-	echo "Delete with:"
-	echo "git tag -d ${VERSION}"
-  echo ""
-	echo "OR modify defaults/const.go file."
-  echo ""
-	echo "OR hit enter to just commit and push."
-  echo ""
-  echo -n "OK? (Ctrl-C to terminate) "
-  read OK
-
-  git add .
-  git commit -m "Committed ${VERSION}"
-  git push
-
-  exit 1
+	echo "  [1] Just commit and push (then run: goreleaser release --clean)"
+	echo "  [2] Cancel"
+	echo ""
+	read -p "Choice (1 or 2)? " choice
+	case "${choice}" in
+	1)
+		git add .
+		git commit -m "Committed ${VERSION}" || true
+		git push
+		echo ""
+		echo "Now run: goreleaser release --clean"
+		;;
+	*)
+		echo "Cancelled."
+		;;
+	esac
+	exit 0
 fi
 
 echo ""

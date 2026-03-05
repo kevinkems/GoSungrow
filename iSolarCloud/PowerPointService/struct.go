@@ -2,9 +2,9 @@
 package PowerPointService
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/PowerPointService/queryPointDataTopOne"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/PowerPointService/queryPointDataTopOne"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"fmt"
 )
 

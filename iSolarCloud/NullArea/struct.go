@@ -1,9 +1,9 @@
 package NullArea
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/NullArea/NullEndpoint"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/NullArea/NullEndpoint"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"fmt"
 )
 

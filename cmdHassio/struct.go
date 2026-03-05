@@ -1,8 +1,8 @@
 package cmdHassio
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getDeviceList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getDeviceList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"errors"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"
@@ -233,7 +233,7 @@ func (m *Mqtt) Connect() error {
 			StateTopic:   "~/state",
 			DeviceConfig: DeviceConfig {
 				Identifiers:  []string{"GoSungrow"},
-				SwVersion:    "GoSungrow https://github.com/MickMake/GoSungrow",
+				SwVersion:    "GoSungrow https://github.com/kevinkems/GoSungrow",
 				Name:         m.ClientId + " Service",
 				Manufacturer: "MickMake",
 				Model:        "SunGrow",

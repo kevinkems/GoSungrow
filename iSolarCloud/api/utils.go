@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/MickMake/GoUnify/Only"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/reflection"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/reflection"
 	"fmt"
 	"net/url"
 	"reflect"

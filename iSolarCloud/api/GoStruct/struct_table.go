@@ -1,8 +1,8 @@
 package GoStruct
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"errors"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"

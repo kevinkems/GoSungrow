@@ -1,4 +1,4 @@
-module github.com/MickMake/GoSungrow
+module github.com/kevinkems/GoSungrow
 
 go 1.19
 

@@ -2,8 +2,8 @@
 package GoStruct
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/reflection"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/reflection"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"encoding/json"
 	"errors"
 	"fmt"

@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/reflection"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/reflection"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"encoding/json"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"

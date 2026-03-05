@@ -1,10 +1,10 @@
 package iSolarCloud
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/queryDeviceRealTimeDataByPsKeys"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/queryUnitList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/WebAppService/getMqttConfigInfoByAppkey"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/queryDeviceRealTimeDataByPsKeys"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/queryUnitList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/WebAppService/getMqttConfigInfoByAppkey"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"github.com/MickMake/GoUnify/Only"
 )
 

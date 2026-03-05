@@ -1,12 +1,12 @@
 package iSolarCloud
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getDeviceList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getDeviceModelInfoList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/getPowerDevicePointNames"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/queryDeviceList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getDeviceList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getDeviceModelInfoList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/getPowerDevicePointNames"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/queryDeviceList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"errors"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"

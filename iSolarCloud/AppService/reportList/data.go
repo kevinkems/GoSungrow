@@ -1,10 +1,10 @@
 package reportList
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/Common"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/Common"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 )
 
 const Url = "/v1/powerStationService/reportList"

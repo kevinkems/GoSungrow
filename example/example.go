@@ -1,11 +1,11 @@
 package example
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/login"
-	"github.com/MickMake/GoSungrow/iSolarCloud/AppService/queryMutiPointDataList"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/login"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/AppService/queryMutiPointDataList"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"
 	"log"

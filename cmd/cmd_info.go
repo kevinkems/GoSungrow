@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"
 	"github.com/MickMake/GoUnify/cmdHelp"

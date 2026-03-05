@@ -1,8 +1,8 @@
 package Common
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 )
 
 type Device struct {

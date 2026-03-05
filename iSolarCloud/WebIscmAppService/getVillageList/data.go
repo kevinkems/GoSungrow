@@ -1,8 +1,8 @@
 package getVillageList
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct"
 	"fmt"
 	"github.com/MickMake/GoUnify/Only"
 )

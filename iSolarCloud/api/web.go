@@ -1,8 +1,8 @@
 package api
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct"
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/output"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/output"
 	"github.com/MickMake/GoUnify/Only"
 	"github.com/MickMake/GoUnify/cmdPath"
 	"io"

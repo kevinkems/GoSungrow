@@ -1,7 +1,7 @@
 package reflection
 
 import (
-	"github.com/MickMake/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
+	"github.com/kevinkems/GoSungrow/iSolarCloud/api/GoStruct/valueTypes"
 	"crypto/md5"
 	"errors"
 	"fmt"

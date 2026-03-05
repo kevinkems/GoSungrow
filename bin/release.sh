@@ -45,6 +45,21 @@ if ! command -v goreleaser &>/dev/null; then
 	echo "Error: goreleaser not found. Install with: brew install goreleaser/tap/goreleaser"
 	exit 1
 fi
+
+# Ensure go is in PATH (needed for before hooks and build) – Cursor/integrated terminals often have minimal PATH
+if ! command -v go &>/dev/null; then
+	for dir in /opt/homebrew/bin /usr/local/go/bin /usr/local/bin; do
+		if [ -x "${dir}/go" ]; then
+			export PATH="${dir}:${PATH}"
+			break
+		fi
+	done
+fi
+if ! command -v go &>/dev/null; then
+	echo "Error: go not found. Run this script from a terminal where 'go version' works, or install Go."
+	exit 1
+fi
+
 goreleaser release --clean
 
 git add .

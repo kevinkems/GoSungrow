@@ -24,6 +24,10 @@ builds:
     - amd64
     - arm
     - arm64
+  # Go does not support windows/arm
+  ignore:
+    - goos: windows
+      goarch: arm
 
 ################################################################################
 # .goreleaser.yml

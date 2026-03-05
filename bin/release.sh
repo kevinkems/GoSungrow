@@ -39,8 +39,13 @@ git add .
 git commit -m "Committed ${VERSION}"
 git tag "${VERSION}"
 git push
+git push origin "${VERSION}"
 
-goreleaser release --rm-dist
+if ! command -v goreleaser &>/dev/null; then
+	echo "Error: goreleaser not found. Install with: brew install goreleaser/tap/goreleaser"
+	exit 1
+fi
+goreleaser release --clean
 
 git add .
 git commit -m "Released ${VERSION}"

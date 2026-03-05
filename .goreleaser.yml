@@ -53,11 +53,9 @@ archives:
     # Default is false.
     wrap_in_directory: false
 
-    # Archive format. Valid options are `tar.gz`, `tar.xz`, `gz`, `zip` and `binary`.
-    # If format is `binary`, no archives are created and the binaries are instead
-    # uploaded directly.
-    # Default is `tar.gz`.
-    format: tar.gz
+    # Archive format (formats in v2).
+    formats:
+      - tar.gz
 
     # Can be used to change the archive formats for specific GOOSs.
     # Most common use case is to archive as zip on Windows.
@@ -80,10 +78,6 @@ archives:
 ################################################################################
 checksum:
   name_template: 'checksums.txt'
-
-################################################################################
-snapshot:
-  name_template: "{{ .Tag }}-next"
 
 ################################################################################
 changelog:
